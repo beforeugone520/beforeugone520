@@ -10,7 +10,26 @@
 
 ## 🚀 精选项目
 
-### 1. [BurnLog-Demo](https://github.com/beforeugone520/BurnLog-Demo) 
+### 1. [BurnLog](https://github.com/beforeugone520/BurnLog) 🔥
+**燃记 - AI 智能饮食记账应用** | `HarmonyOS NEXT` `ArkTS` `Kimi AI`
+
+> 基于 HarmonyOS NEXT 开发的 AI 饮食管理应用，集成 Kimi 大模型实现拍照识别食物、自动计算卡路里
+
+**核心功能：**
+- 🤖 **AI 食物识别**：基于 Kimi AI 大模型，拍照即可识别食物名称与营养成分
+- 📊 **智能分析**：自动计算卡路里，生成每日/每周营养摄入报告
+- 🔐 **华为账号**：集成 HUAWEI ID，支持数据云端同步
+- 🎨 **原生体验**：ArkUI 声明式 UI，支持浅色/深色主题切换
+
+**技术亮点：**
+- 端云协同架构：本地 Preference + 云端 AGC 存储
+- AI 服务封装：模块化 KimiAIService，支持快速切换模型
+- 状态管理：自定义 ThemeManager/UserManager 实现全局状态
+- 未来感 UI：自定义 futureui 组件库，符合鸿蒙设计规范
+
+**项目规模：** 15+ 页面模块 | 完整账号体系 | AI 端到端集成
+
+### 子项目：[BurnLog-Demo](https://github.com/beforeugone520/BurnLog-Demo) 
 **鸿蒙版 AI 饮食分析应用** | `ArkTS` `HarmonyOS` `AI`
 
 &gt; 基于 HarmonyOS Next 的智能饮食记录应用，集成 AI 图像识别实现食物热量自动分析
@@ -45,10 +64,10 @@
 &gt; 基于 HarmonyOS 的 OpenClaw 网关管理应用，实现 IoT 设备的本地化管理与远程控制
 
 **技术亮点：**
-- 🔗 跨平台通信：设计鸿蒙端与 OpenClaw 网关的 WebSocket 双工通信协议
+- 🔗 跨平台通信：设计鸿蒙端与 OpenClaw 网关的通信协议
 - 📱 原生能力调用：深度集成鸿蒙系统服务（网络管理、设备发现、权限控制）
-- 🎛️ 可视化配置：拖拽式网关规则配置界面，降低用户使用门槛
-- 🌐 混合架构：前端 JavaScript + 后端 ArkTS 服务，实现灵活扩展
+- 🎛️ 可视化配置：可视化网关规则配置界面，降低用户使用门槛
+- 🌐 混合架构：MVVM + Repository 模式
 
 **成果：** 鸿蒙 IoT 生态探索 | 嵌入式系统与移动端融合方案
 
@@ -87,8 +106,6 @@
 ## 🎯 当前聚焦
 
 - 🔭 探索 **HarmonyOS Next** 原生应用开发与性能优化
-- 🌱 研究 **Multi-Agent System** 在移动端的落地场景
-- 👯 寻找 **Flutter + AI** 方向的协作机会
 - 💬 欢迎交流：鸿蒙开发、跨平台方案、LLM 应用工程化
 
 ---
