@@ -1,122 +1,33 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2E9EFF&width=600&lines=Hi+%F0%9F%91%8B+I'm+a+Full-Stack+Mobile+Developer;HarmonyOS+%26+Flutter+Specialist;AI+%2B+IoT+Integration+Expert)](https://git.io/typing-svg)
+# 你好，我是 Bruce 👋
 
-<p align="center">
-  <a href="mailto:beforeugone520@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/beforeugone520"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
- 
-</p>
+**跨专业、非科班的 vibe coder —— 用 AI 把想法做出来，再回头把原理啃下来。**
+
+🔗 个人站与写作：**[beforeugone.com](https://beforeugone.com/)** · 📮 u@beforeugone.com · 💬 微信 `BeforeUgone`
 
 ---
 
-## 🚀 精选项目
+## 🖥️ 主线：把 Ghostty 搬进鸿蒙（FusionTerm）
 
-### 1. [BurnLog](https://github.com/beforeugone520/BurnLog) 🔥
-**燃记 - AI 智能饮食记账应用** | `HarmonyOS NEXT` `ArkTS` `Kimi AI`
+在 HarmonyOS 上从零搭一条真终端链路——native 渲染、IME 中文输入、远程 PTY，触屏手感在真机上一点点磨出来。
 
-> 基于 HarmonyOS NEXT 开发的 AI 饮食管理应用，集成 Kimi 大模型实现拍照识别食物、自动计算卡路里
+| 仓库 | 是什么 |
+|---|---|
+| [**libghostty-ohos**](https://github.com/beforeugone520/libghostty-ohos) | 鸿蒙 HAR 终端库：Ghostty 终端核 + XComponent native 渲染面 + ArkTS 控制层；IME 中文输入、字形 fallback、主题、选区、搜索 |
+| [**wand-agent**](https://github.com/beforeugone520/wand-agent) | WebSocket PTY 后端（安全加固 fork）：二进制帧直通 PTY、单写者串行、Bearer 鉴权、进程组回收、心跳保活 |
 
-**核心功能：**
-- 🤖 **AI 食物识别**：基于 Kimi AI 大模型，拍照即可识别食物名称与营养成分
-- 📊 **智能分析**：自动计算卡路里，生成每日/每周营养摄入报告
-- 🔐 **华为账号**：集成 HUAWEI ID，支持数据云端同步
-- 🎨 **原生体验**：ArkUI 声明式 UI，支持浅色/深色主题切换
+`ArkTS` · `C++ / libghostty-vt` · `Go` · `WebSocket`
 
-**技术亮点：**
-- 端云协同架构：本地 Preference + 云端 AGC 存储
-- AI 服务封装：模块化 KimiAIService，支持快速切换模型
-- 状态管理：自定义 ThemeManager/UserManager 实现全局状态
-- 未来感 UI：自定义 futureui 组件库，符合鸿蒙设计规范
+## 🧰 Skills：把工作流做成可复用的包
 
-**项目规模：** 15+ 页面模块 | 完整账号体系 | AI 端到端集成
+给 AI 编程助手（Codex / Claude Code）写的技能包与模板，让 agent 干活更像我：
 
-### 子项目：[BurnLog-Demo](https://github.com/beforeugone520/BurnLog-Demo) 
-**鸿蒙版 AI 饮食分析应用** | `ArkTS` `HarmonyOS` `AI`
+- [**skill-for-work**](https://github.com/beforeugone520/skill-for-work) —— 个人 skill 全家桶 + 一键安装器，新机器秒恢复整套工作流
+- [**NovaForge**](https://github.com/beforeugone520/NovaForge) —— 通用知识笔记模板：LaTeX + Typst + Markdown 三版本、7 步模块化结构，考研 / 考公 / 科研 / 项目六种模式
+- [**BeforeU-open**](https://github.com/beforeugone520/BeforeU-open) —— 课程资料 → 开卷考试可打印速查包（页码拼版 / 索引 / 重点 PDF）
+- [**BeforeU-report**](https://github.com/beforeugone520/BeforeU-report) —— 作业与实验报告交付工作流：拆题、排版、渲染、提交前检查
 
-&gt; 基于 HarmonyOS Next 的智能饮食记录应用，集成 AI 图像识别实现食物热量自动分析
+## 🌱 其他
 
-**技术亮点：**
-✅ HarmonyOS ArkTS 开发
-✅ Kimi Code API (Anthropic Claude 格式) 集成
-✅ 图片选择、压缩、Base64 编码
-✅ AI 食物识别与营养分析
+CS2 瑞士轮预测终端、AI 拉片、黄海绿潮交互演示、Claude 璨星动画复刻……小东西都在 [beforeugone.com](https://beforeugone.com/) 的作品区和仓库列表里。
 
-**成果：** 鸿蒙原生应用开发实践 | ArkTS 性能优化案例
-
----
-
-### 2. [AgentCrew](https://github.com/beforeugone520/AgentCrew) ⭐ 8 Stars
-**OpenClaw 多 Agent 协作系统** | `TypeScript` `Multi-Agent` `Discord Bot`
-
-&gt; 基于 OpenClaw 框架的多 Agent 协作实战配置，实现 Discord 场景下的智能工作流编排
-
-**技术亮点：**
-- 🤖 多 Agent 架构：设计角色分工机制（Planner → Executor → Critic）
-- 🔄 状态管理：实现 Agent 间上下文共享与任务接力
-- 📡 实时通信：Discord Bot 集成，支持群聊场景下的协作调度
-
-**成果：** 开源社区认可（8 Stars）| LLM 工程化落地实践
-
----
-
-### 3. [Harmony-Claw](https://github.com/beforeugone520/Harmony-Claw)
-**鸿蒙 OpenClaw 网关管理程序** | `JavaScript` `HarmonyOS` `IoT`
-
-&gt; 基于 HarmonyOS 的 OpenClaw 网关管理应用，实现 IoT 设备的本地化管理与远程控制
-
-**技术亮点：**
-- 🔗 跨平台通信：设计鸿蒙端与 OpenClaw 网关的通信协议
-- 📱 原生能力调用：深度集成鸿蒙系统服务（网络管理、设备发现、权限控制）
-- 🎛️ 可视化配置：可视化网关规则配置界面，降低用户使用门槛
-- 🌐 混合架构：MVVM + Repository 模式
-
-**成果：** 鸿蒙 IoT 生态探索 | 嵌入式系统与移动端融合方案
-
----
-
-## 🛠 技术栈
-
-### 移动端开发
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![HarmonyOS](https://img.shields.io/badge/HarmonyOS-000000?style=flat-square&logo=harmonyos&logoColor=white)
-![ArkTS](https://img.shields.io/badge/ArkTS-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-### 前端与 AI
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![LLM](https://img.shields.io/badge/LLM-FF6F61?style=flat-square&logo=ai&logoColor=white)
-
-### 后端与 DevOps
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
----
-
-## 📊 GitHub 统计
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=beforeugone520&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=beforeugone520&layout=compact&langs_count=8&theme=tokyonight" />
-</p>
-
----
-
-## 🎯 当前聚焦
-
-- 🔭 探索 **HarmonyOS Next** 原生应用开发与性能优化
-- 💬 欢迎交流：鸿蒙开发、跨平台方案、LLM 应用工程化
-
----
-
-## 📫 联系我
-
-- 📧 邮箱：beforeugone520@gmail.com
-
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=beforeugone520&label=Profile%20views&color=0e75b6&style=flat" alt="访问量统计" />
-</p>
+<p align="center"><em>Before U Gone · 先做出来。</em></p>
