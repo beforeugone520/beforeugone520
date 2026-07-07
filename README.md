@@ -1,4 +1,4 @@
-# 你好，我是 Bruce 👋
+# 你好，这里是 BeforeUgone 👋
 
 平时用 AI 辅助写代码，做一些自己想用的东西。写作和项目放在 [beforeugone.com](https://beforeugone.com/)。
 
